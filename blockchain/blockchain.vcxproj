@@ -156,6 +156,7 @@
     <ClInclude Include="RecordHash.h" />
     <ClInclude Include="SimpleBlockChain.h" />
     <ClInclude Include="SimpleBlockChainRecord.h" />
+    <ClInclude Include="SimpleBlockLedger.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="blockchain.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="RecordHash.cpp" />
     <ClCompile Include="SimpleBlockChain.cpp" />
     <ClCompile Include="SimpleBlockChainRecord.cpp" />
+    <ClCompile Include="SimpleBlockLedger.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
