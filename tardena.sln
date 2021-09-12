@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tardena", "tardena\tardena.vcxproj", "{FCFB571A-9B6F-4100-A0B2-8D670D1F14F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E21BE26B-A0D4-4654-8548-EE4004114104} = {E21BE26B-A0D4-4654-8548-EE4004114104}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blockchain", "blockchain\blockchain.vcxproj", "{E21BE26B-A0D4-4654-8548-EE4004114104}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,14 @@ Global
 		{FCFB571A-9B6F-4100-A0B2-8D670D1F14F0}.Release|x64.Build.0 = Release|x64
 		{FCFB571A-9B6F-4100-A0B2-8D670D1F14F0}.Release|x86.ActiveCfg = Release|Win32
 		{FCFB571A-9B6F-4100-A0B2-8D670D1F14F0}.Release|x86.Build.0 = Release|Win32
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Debug|x64.ActiveCfg = Debug|x64
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Debug|x64.Build.0 = Debug|x64
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Debug|x86.ActiveCfg = Debug|Win32
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Debug|x86.Build.0 = Debug|Win32
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Release|x64.ActiveCfg = Release|x64
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Release|x64.Build.0 = Release|x64
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Release|x86.ActiveCfg = Release|Win32
+		{E21BE26B-A0D4-4654-8548-EE4004114104}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
